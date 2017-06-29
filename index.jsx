@@ -92,6 +92,7 @@ module.exports = React.createClass({
             onChange={onTextFieldChange}
             style={textFieldStyle}
             value={value}
+            underlineFocusStyle={{borderColor: '#5d5d5e'}}
           />
         }
         if (type === 'DatePicker') {
@@ -147,6 +148,7 @@ module.exports = React.createClass({
     const rowStyle = {
       width: '100%',
       display: 'flex',
+      justifyContent: 'space-around',
       flexFlow: 'row nowrap',
       padding: row.header ? 0 : 12,
       border: 0,
@@ -234,6 +236,7 @@ module.exports = React.createClass({
             flexFlow: 'row nowrap',
             flexGrow: 0.15,
             flexBasis: 'content',
+            justifyContent: 'center',
             alignItems: 'center',
             height: 30,
             width: width || 200
