@@ -2,7 +2,8 @@ const React = require('react')
 const ReactDOM = require('react-dom')
 const getMuiTheme = require('material-ui/styles/getMuiTheme').default
 const baseTheme = require('material-ui/styles/baseThemes/darkBaseTheme')
-const EditTable = require('..')
+// const EditTable = require('..')
+import EditTable from '..'
 const container = document.createElement('div')
 
 document.body.appendChild(container)
